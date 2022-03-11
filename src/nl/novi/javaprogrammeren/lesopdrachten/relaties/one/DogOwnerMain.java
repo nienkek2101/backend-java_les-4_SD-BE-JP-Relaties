@@ -20,8 +20,9 @@ public class DogOwnerMain {
      */
 
     public static void main(String[] args) {
-
-
+        Dog vicky = new Dog("Vicky", "teckel", 5, "teef");
+        DogOwner harry = new DogOwner("Harry", "man");
+        System.out.println(vicky.name);
     }
 
 }
