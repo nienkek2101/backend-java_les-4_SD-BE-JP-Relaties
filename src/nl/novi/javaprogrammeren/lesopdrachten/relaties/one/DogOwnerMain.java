@@ -22,7 +22,11 @@ public class DogOwnerMain {
     public static void main(String[] args) {
         Dog vicky = new Dog("Vicky", "teckel", 5, "teef");
         DogOwner harry = new DogOwner("Harry", "man");
-        System.out.println(vicky.name);
+        harry.setDog(vicky);
+        System.out.println(harry.getDog().getName() + harry.getDog().getAge());
+        System.out.println(harry.getDog().getAge());
+        System.out.println(harry.getName() + " heeft een " + harry.getDog().getSex() + ", deze is " + harry.getDog().getAge() + " jaar oud en van het soort: " + harry.getDog().getSpecies() + ". De hond heet: " + harry.getDog().getName());
+
     }
 
 }

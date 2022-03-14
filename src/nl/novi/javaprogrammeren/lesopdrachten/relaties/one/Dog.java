@@ -1,10 +1,10 @@
 package nl.novi.javaprogrammeren.lesopdrachten.relaties.one;
 
 public class Dog {
-    String name;
-    String species;
-    int age;
-    String sex;
+    private String name;
+    private String species;
+    private int age;
+    private String sex;
 
     public Dog(String name, String species, int age, String sex) {
         this.name = name;
