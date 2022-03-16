@@ -13,6 +13,8 @@ public class Dog {
         this.sex = sex;
     }
 
+    // Getters
+
     public String getName() { return name; }
 
     public String getSpecies() { return species; }
@@ -21,6 +23,8 @@ public class Dog {
 
     public String getSex() { return sex; }
 
+    // Setters
+
     public void setName(String name) { this.name = name; }
 
     public void setSpecies(String species) { this.species = species; }
@@ -28,5 +32,11 @@ public class Dog {
     public void setAge(int age) { this.age = age; }
 
     public void setSex(String sex) { this.sex = sex; }
+
+    // Methodes
+
+//    public String toString() {
+//        return "heeft een " + getSex() + ", deze is " + getAge
+//    }
 
 }

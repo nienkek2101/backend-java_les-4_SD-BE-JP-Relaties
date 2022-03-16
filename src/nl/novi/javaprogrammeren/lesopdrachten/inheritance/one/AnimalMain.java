@@ -34,4 +34,37 @@ public class AnimalMain {
 
      */
 
+    public static void main(String[] args) {
+        Animal pietje = new Animal("pietje", "mannetje");
+        Animal jantje = new Animal("Clara", "vrouwtje");
+        pietje.isSleeping();
+        jantje.isSleeping();
+    }
+
+
+
+    // Leeuw + Tijger + Wolf - wilde dieren
+    private String nameOfCage;
+    private String lastEaten;
+    private String countryOfOrigin;
+
+    // Leeuw
+    private int numberOfKids;
+
+    // Tijger
+    private int numberOfStripes;
+
+    // Wolf
+    private String nameOfPack;
+
+    // Katten + honden - huisdieren
+    private String nameOfOwner;
+    private String favoriteFoodBrand;
+    private String species;
+
+    // Kat
+    private String outsideOrInside;
+
+
+
 }

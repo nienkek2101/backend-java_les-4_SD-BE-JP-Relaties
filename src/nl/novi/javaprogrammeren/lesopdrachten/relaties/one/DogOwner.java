@@ -38,7 +38,7 @@ public class DogOwner {
     }
 
     public void happyBirthdayToDog(int age) {
-        // tussen haakjes moet denk ik de naam van de hond komen te staan
+        // tussen haakjes moet denk ik de naam van de hond komen te staan ipv int age?
         // Huidige leeftijd van de hond ophalen
         // De huidige leeftijd verhogen met 1
         age++;
