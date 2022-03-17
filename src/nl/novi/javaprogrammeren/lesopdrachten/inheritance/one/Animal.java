@@ -12,6 +12,13 @@ public class Animal {
         this.sex = sex;
     }
 
+    public Animal() {
+
+    }
+
+//    public Animal() {
+//    }
+
     // Getters
 
     public String getName() {

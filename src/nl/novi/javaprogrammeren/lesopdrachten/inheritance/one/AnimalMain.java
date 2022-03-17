@@ -39,31 +39,15 @@ public class AnimalMain {
         Animal jantje = new Animal("Clara", "vrouwtje");
         pietje.isSleeping();
         jantje.isSleeping();
+        Cat garfield = new Cat("garfield", "mannetje");
+        System.out.println("Deze kat heet " + garfield.getName() + " en het is een " + garfield.getSex());
+        garfield.setLivingInsideOrOutdoor("binnen");
+        System.out.println(garfield.getType());
+        garfield.isMoving();
+
     }
 
 
-
-    // Leeuw + Tijger + Wolf - wilde dieren
-    private String nameOfCage;
-    private String lastEaten;
-    private String countryOfOrigin;
-
-    // Leeuw
-    private int numberOfKids;
-
-    // Tijger
-    private int numberOfStripes;
-
-    // Wolf
-    private String nameOfPack;
-
-    // Katten + honden - huisdieren
-    private String nameOfOwner;
-    private String favoriteFoodBrand;
-    private String species;
-
-    // Kat
-    private String livingInsideOrOutdoor;
 
 
 
