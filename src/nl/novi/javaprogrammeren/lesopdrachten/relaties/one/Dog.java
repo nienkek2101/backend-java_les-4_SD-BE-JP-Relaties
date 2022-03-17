@@ -35,8 +35,13 @@ public class Dog {
 
     // Methodes
 
-//    public String toString() {
-//        return "heeft een " + getSex() + ", deze is " + getAge
-//    }
+    public void agePlusOne(){
+        this.age ++;
+    }
+
+    public String printString() {
+        return ("heeft een " + this.sex + ", deze is " + this.age + " jaar oud.");
+
+    }
 
 }

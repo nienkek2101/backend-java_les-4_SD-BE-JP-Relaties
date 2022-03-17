@@ -63,7 +63,7 @@ public class AnimalMain {
     private String species;
 
     // Kat
-    private String outsideOrInside;
+    private String livingInsideOrOutdoor;
 
 
 

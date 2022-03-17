@@ -26,7 +26,11 @@ public class DogOwnerMain {
         System.out.println(harry.getDog().getName() + harry.getDog().getAge());
         System.out.println(harry.getDog().getAge());
         System.out.println(harry.getName() + " heeft een " + harry.getDog().getSex() + ", deze is " + harry.getDog().getAge() + " jaar oud en van het soort: " + harry.getDog().getSpecies() + ". De hond heet: " + harry.getDog().getName());
-
+        harry.changeDogName("Vikki");
+        System.out.println(vicky.getName());
+        harry.happyBirthdayToDog();
+        System.out.println(vicky.getAge());
+        harry.printString();
     }
 
 }
