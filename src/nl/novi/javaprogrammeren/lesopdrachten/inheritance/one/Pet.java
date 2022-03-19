@@ -1,6 +1,6 @@
 package nl.novi.javaprogrammeren.lesopdrachten.inheritance.one;
 
-public class Pet extends Animal {
+public abstract class Pet extends Animal {
     // Variabelen
     // Katten + honden - huisdieren
     private String nameOfOwner;
@@ -44,6 +44,6 @@ public class Pet extends Animal {
     // Methodes
     @Override
     public void isMoving() {
-        System.out.println("Hij beweegt 0.25");
+        System.out.println("Hij beweegt met een snelheid van 0.25");
     }
 }

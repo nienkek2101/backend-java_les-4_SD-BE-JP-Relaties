@@ -1,6 +1,6 @@
 package nl.novi.javaprogrammeren.lesopdrachten.inheritance.one;
 
-public class WildAnimal extends Animal {
+public abstract class WildAnimal extends Animal {
     // Variabelen
     // Leeuw + Tijger + Wolf - wilde dieren
     private String nameOfCage;
@@ -8,8 +8,8 @@ public class WildAnimal extends Animal {
     private String countryOfOrigin;
 
     // Constructor
-    public WildAnimal() {
-
+    public WildAnimal(String name, String sex) {
+        super(name, sex);
     }
 
     // Getters
@@ -41,6 +41,10 @@ public class WildAnimal extends Animal {
 
 
     // Methodes
+    @Override
+    public void isMoving() {
+        System.out.println(getName().substring(0,1).toUpperCase() + getName().substring(1) + " beweegt met een snelheid van 0.5");
+    }
 
 }
 

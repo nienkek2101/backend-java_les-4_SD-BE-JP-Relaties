@@ -1,6 +1,6 @@
 package nl.novi.javaprogrammeren.lesopdrachten.inheritance.one;
 
-public class Animal {
+public abstract class Animal {
     // Variabelen - Allemaal
     private String name;
     private String sex;
@@ -34,13 +34,20 @@ public class Animal {
 
 
     // Methodes
+    // methode naam met hoofdletter
+    public String capitalizeName(String name){
+        return name.substring(0,1).toUpperCase() + name.substring(1);
+
+    }
 
     // methode om te bewegen
     public void isMoving() {
+        System.out.println( getName() + " beweegt met onbekende snelheid");
 
     }
     // methode om geluid te maken
     public void makesNoise() {
+        System.out.println( getName() + " maakt onbekend geluid");
 
     }
     // methode voor slapen

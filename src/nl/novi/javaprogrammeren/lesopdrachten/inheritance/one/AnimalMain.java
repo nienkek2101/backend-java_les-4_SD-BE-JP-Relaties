@@ -35,8 +35,8 @@ public class AnimalMain {
      */
 
     public static void main(String[] args) {
-        Animal pietje = new Animal("pietje", "mannetje");
-        Animal jantje = new Animal("Clara", "vrouwtje");
+        Dog pietje = new Dog("pietje", "mannetje");
+        Cat jantje = new Cat("Clara", "vrouwtje");
         pietje.isSleeping();
         jantje.isSleeping();
         Cat garfield = new Cat("garfield", "mannetje");
@@ -44,6 +44,14 @@ public class AnimalMain {
         garfield.setLivingInsideOrOutdoor("binnen");
         System.out.println(garfield.getType());
         garfield.isMoving();
+        Lion leeuwtje = new Lion("leeuwtje", "mannetje");
+        leeuwtje.setCountryOfOrigin("Zuid Afrika");
+        System.out.println(leeuwtje.getCountryOfOrigin());
+        leeuwtje.isMoving();
+        Tiger brown = new Tiger("brown", "mannetje");
+        brown.setNumberOfStripes(25);
+        brown.printString();
+        brown.isMoving();
 
     }
 
